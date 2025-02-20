@@ -10,7 +10,7 @@ class Stack:
 
     def pop(self):
         if not self.is_empty():
-            return self.itemas.pop()
+            return self.items.pop()
         else:
             return None
 
