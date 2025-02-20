@@ -20,6 +20,8 @@ class Stack:
         else:
             return None
 
+    def size(self):
+        return len(self.items)
 
 stack = Stack()
 stack.push(1)
